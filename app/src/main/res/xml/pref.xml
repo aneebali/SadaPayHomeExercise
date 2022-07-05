@@ -2,11 +2,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ListPreference
-        android:key="@string/pref_key_dark_mode"
-        android:title="Night mode"
-        android:summary="Select a dark or light theme"
+        android:defaultValue="0"
         android:entries="@array/pref_dark_mode_labels"
         android:entryValues="@array/pref_dark_mode_values"
-        android:defaultValue="0" />
+        android:key="@string/pref_key_dark_mode"
+        android:summary="Select a dark or light theme"
+        android:title="Night mode" />
 
 </PreferenceScreen>

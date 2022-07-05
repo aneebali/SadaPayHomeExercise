@@ -25,6 +25,12 @@ class BaseApplication : Application() {
         super.onCreate()
         val darkModeValues = resources.getStringArray(R.array.pref_dark_mode_values)
         // The apps theme is decided depending upon the saved preferences on app startup
+        settingTheme(darkModeValues)
+
+    }
+
+
+    fun settingTheme(darkModeValues: Array<String>) {
         when (PreferenceManager.getDefaultSharedPreferences(this)
             .getString(getString(R.string.pref_key_dark_mode), "MODE_NIGHT_FOLLOW_SYSTEM")) {
             darkModeValues[0] -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)

@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.aneeb.sadapayhomeexercize.network.TrendingRepoServiceRepository
 
-class MyViewModelFactory constructor(private val repository: TrendingRepoServiceRepository) :
+class ViewModelFactory constructor(private val repository: TrendingRepoServiceRepository) :
     ViewModelProvider.Factory {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {

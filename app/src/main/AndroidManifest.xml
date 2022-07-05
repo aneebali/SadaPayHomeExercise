@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.aneeb.sadapayhomeexercize">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,8 +15,8 @@
         android:theme="@style/Theme.SadaPayHomeExercize">
         <activity
             android:name=".SettingActivity"
-            android:theme="@style/Theme.SadaPayHomeExercize.NoActionBar"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.SadaPayHomeExercize.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

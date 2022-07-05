@@ -23,7 +23,7 @@ class TrendingRepositoriesViewModel constructor(private val repository: Trending
                 call: Call<TrendingRepository>,
                 response: Response<TrendingRepository>
             ) {
-                movieList.postValue(response.body()?.items)
+                movieList.postValue(response.body()?.items ?: ArrayList<Item>())
             }
 
             override fun onFailure(call: Call<TrendingRepository>, t: Throwable) {

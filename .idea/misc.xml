@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_language.xml" value="0.1955" />
         <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.17" />
+        <entry key="app/src/main/res/drawable/shape_btn_retry.xml" value="0.1315" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_setting.xml" value="0.15081521739130435" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.15081521739130435" />
+        <entry key="app/src/main/res/layout/content_retry.xml" value="0.27853895284361757" />
         <entry key="app/src/main/res/layout/content_setting.xml" value="0.15081521739130435" />
-        <entry key="app/src/main/res/layout/fragment_trending_repositories.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/content_shimmer.xml" value="0.15081521739130435" />
+        <entry key="app/src/main/res/layout/fragment_trending_repositories.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.397459165154265" />
         <entry key="app/src/main/res/layout/list_item_shimmer.xml" value="0.16156616210937505" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.1" />
